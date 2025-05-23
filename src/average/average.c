@@ -1,7 +1,7 @@
 #include "average.h"
 
 // Correctly Implement average(), all unit test cases will pass
-/*
+
 float average(float arr[], unsigned int size)
 {
     if (size == 0)
@@ -17,7 +17,7 @@ float average(float arr[], unsigned int size)
     
     return total / (float)size;
 }
-*/
+
 
 
 // Break The Function to observe simple_test. Replace  with *
