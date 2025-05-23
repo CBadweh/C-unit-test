@@ -29,7 +29,14 @@ TEST(average_test_group, simple_test)
 // Test null array
 TEST(average_test_group, null_test)
 {
-    float array[1];
-    float avg = average(array, 0);
-    CHECK_EQUAL(avg, 0.0);
+    float array[1];                // Content is irrelevant
+    float avg = average(array, 0); // Call with size = 0
+    CHECK_EQUAL(avg, 0.0);         // Expect: return value is 0.0
+}
+
+TEST(average_test_group, negative_values_test)
+{
+    float array[] = {-2.0, -4.0, -6.0, -8.0};
+    float avg = average(array, 4);
+    DOUBLES_EQUAL(-5.0, avg, 0.0001);  // Expect: (-2 -4 -6 -8)/4 = -5
 }
