@@ -1,0 +1,41 @@
+[33mcommit 983dab48a1b4dd2385c3ac0116ad48cf2ed20681[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Fri May 23 10:06:37 2025 -0400
+
+    add Sum component to project level makefile to run 'make'
+
+[33mcommit e76c4da96b32ff4e8d1a1dbd61eea4af1187c7f8[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Fri May 23 09:43:13 2025 -0400
+
+    Scale Up by adding sum component in both /src and /tests
+
+[33mcommit c217095d5325da4393a4173fccdf8af18077d664[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Fri May 23 09:25:08 2025 -0400
+
+    comment out negative_values_test unit test
+
+[33mcommit b5698bdd27deec1c851c8ea59780595b782c927d[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Fri May 23 09:21:29 2025 -0400
+
+    Add negative_values_test unit test
+
+[33mcommit 1732741c00fa9ddb942388b3a8465b755b5ee9cc[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Thu May 22 01:40:50 2025 -0400
+
+    fixed workflow path
+
+[33mcommit 1922ea8cd917882f9559eaf376551e47e3d9e18b[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Thu May 22 01:38:13 2025 -0400
+
+    fixed workflow path
+
+[33mcommit 154a0a51141d4d7725ee5a3cd385e7a341b5d2cd[m
+Author: C Badweh <sheenaymudwe@gmail.com>
+Date:   Thu May 22 01:34:48 2025 -0400
+
+    Created unit test framework
